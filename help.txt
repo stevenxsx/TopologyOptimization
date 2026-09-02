@@ -1,3 +1,16 @@
 Start SSH agent.
 ssh-add $env:USERPROFILE\.ssh\id_ed25519
 
+CuTile requirements:
+Compute Capability (CC) 10 or 12
+NVIDIA driver version r580 or later
+CUDA toolkit version 13.1 or later
+Python version 3.10 or later
+
+Gracy specs
+aarch64 
+NVIDIA-SMI 545.23.08
+CUDA Version 12.3
+
+CuTile NVIDIA Github repository:
+github.com/NVIDIA/cutile-python
